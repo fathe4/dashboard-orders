@@ -30,7 +30,7 @@ export default function DetailedOrder() {
         setOpen(true);
     };
 
-    // SINGLE ORDER DETAILS
+    // SINGLE ORDER DETAILSs
     GetOrderDetails(id, data, setData, setIsLoading)
 
     // UPDATE ORDER STATUS
@@ -50,7 +50,7 @@ export default function DetailedOrder() {
         DeleteOrder(id, setIsLoading, navigate)
     }
 
-    console.log(status, date)
+
 
 
     return (
