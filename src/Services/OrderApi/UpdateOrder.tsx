@@ -1,5 +1,5 @@
 import { toast } from 'react-toastify';
-// UPDATE ORDER STATUS
+// UPDATE ORDER STATUS//
 export const UpdateOrder = (id, status, deliveryDate, setData, setIsLoading, navigate, details) => {
 
     setIsLoading(true)

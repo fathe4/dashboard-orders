@@ -11,7 +11,7 @@ export const DeleteOrder = (id, setIsLoading, navigate) => {
                     alert('Order Deleted')
                     navigate('/dashboard/orders')
                     // const remainingOrders = userOrders.filter(order => order._id !== id)
-                    // setUserOrders(remainingOrders)
+                    // setUserOrders(remainingOrders)//
                 }
 
             })
