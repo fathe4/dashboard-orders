@@ -16,7 +16,7 @@ const AllOrders = () => {
             })
             .finally(() => setIsLoading(false))
     }, [])
-    console.log(orders);
+    console.log(orders)
 
     return (
 

@@ -50,7 +50,7 @@ export default function DetailedOrder() {
         DeleteOrder(id, setIsLoading, navigate)
     }
 
-    console.log(status, date);
+    console.log(status, date)
 
 
     return (
