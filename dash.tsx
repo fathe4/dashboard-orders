@@ -128,7 +128,7 @@ function Dashboard() {
                             <li><Link className="link_name" to={`/dashboard/vendors`}>Users</Link></li>
                         </ul>
                     </li> : ""}
-                    {userDetails.email && userDetails.role === 'vendor' ? <li>
+                    {(userDetails.email && userDetails.role === 'vendor') || (userDetails.email && userDetails.role === 'affiliate') ? <li>
                         <Link to={`/dashboard/profile`}>
                             <i className="fa-solid fa-user-pen"></i>
                             <span className="link_name">Profile</span>
